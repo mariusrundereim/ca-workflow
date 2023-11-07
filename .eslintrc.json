@@ -23,15 +23,11 @@
       "rules": { "jest/prefer-expect-assertions": "off" }
     }
   ],
-  "globals": {
-    "on": "readonly",
-    "require": "readonly",
-    "module": "readonly",
-    "config": "readonly"
-  },
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {}
+  "rules": {
+    "cypress/unsafe-to-chain-command": "off"
+  }
 }
