@@ -10,14 +10,12 @@
 
 ```
 npm i install
-
 ```
 
 2. Build
 
 ```
 npm i build
-
 ```
 
 3. Unit testing & E2E Testing
