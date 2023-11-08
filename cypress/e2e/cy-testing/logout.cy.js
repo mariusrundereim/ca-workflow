@@ -1,5 +1,5 @@
-// const email = "pertore55@stud.noroff.no";
-// const pw = "pertore-55";
+const email = "pertore55@stud.noroff.no";
+const pw = "pertore-55";
 
 // describe("Login", () => {
 //   beforeEach(() => {
@@ -31,15 +31,14 @@
 //   it("is Logged in", () => {});
 // });
 
-// describe("Logout", () => {
-//   beforeEach(() => {
-//     cy.get("#logOutBtn")
-//       .contains("Logout")
-//       .click()
-//       .should(() => {
-//         expect(localStorage.getItem("token")).to.be.null;
-//       });
-//   });
+describe("Logout", () => {
+  beforeEach(() => {
+    cy.get("#logOutBtn").contains("Logout");
+    //   .click()
+    //   .should(() => {
+    //     expect(localStorage.getItem("token")).to.be.null;
+    //   });
+  });
 
-//   it("Logout successful", () => {});
-// });
+  it("Logout successful", () => {});
+});
