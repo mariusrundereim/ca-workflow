@@ -22,8 +22,14 @@ npm i install
 npm i build
 ```
 
-3. Unit testing & E2E Testing
+3. Unit testing
 
 ```
 npm run test
+```
+
+4. Run E2E Testing
+
+```
+npm run test-e2e
 ```
